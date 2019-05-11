@@ -1,0 +1,88 @@
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Dosis', sans-serif; */
+
+body{
+    padding-top: 70px;
+    background-color: #f2f2f2;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: rgb(79, 70, 70);
+    line-height: 50px;
+    text-align: center;
+    text-align: top;
+    font-size: 4rem;
+    margin: 0;
+    padding: 0;
+}
+
+h3, #mainNavbar .navbar-brand {
+    font-family: 'Dosis', sans-serif;
+    color: rgb(211, 92, 92);
+    text-align: center;
+}
+
+.container:not(#homePage) {
+    display: none;
+}
+
+#mainNavbar .navbar-brand {
+    height: 52px;
+    margin: 0 30px 0 30px;
+    padding: 0;
+    
+}
+
+.col-12 {
+    /* border: solid 2px black; */
+    height: 400px;
+    margin: 50px 0 0 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #f2f2f2c1;
+    padding: 0;
+    margin: 0;
+    font-size: 1.5rem;
+    transition: all 200ms;
+}
+#mainNavbar .nav-link {
+   margin: 0 0.5rem;
+   color: rgba(79, 70, 70, .5);
+   font-weight: 300;
+   text-transform: uppercase;
+   transition: color 500ms;
+}
+
+#mainNavbar .nav-link:hover {
+    color: rgb(211, 92, 92);
+    transition: color 500ms;
+}
+
+#splashImage {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    box-shadow: 1px 1px 30px 1px rgba(0, 0, 0, 0.2);
+}
+
+#mainNavbar .selected {
+    color: rgb(211, 92, 92);
+}
+
+.navbar.scrolled {
+    background-color: rgba(109, 109, 109, 0.8);
+    box-shadow: 0px 20px 30px rgba(77, 77, 77, 0.4);
+    transition: all 200ms;
+}
+
+#mainNavbar .nav-link.scrolled{
+    color: rgb(255, 231, 231);
+}
+
+#mainNavbar .nav-link.scrolled:hover{
+    color: rgb(211, 92, 92);
+    transition: color 500ms;
+}
