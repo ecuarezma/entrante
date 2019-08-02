@@ -1,0 +1,23 @@
+{
+  "name": "entrante2",
+  "version": "1.0.0",
+  "description": "art portfolio",
+  "main": "index.html",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ecuarezma/entrante.git"
+  },
+  "author": "Edgar Cuarezma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ecuarezma/entrante/issues"
+  },
+  "homepage": "https://github.com/ecuarezma/entrante#readme"
+}
