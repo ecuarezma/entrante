@@ -2,10 +2,11 @@
   "name": "entrante2",
   "version": "1.0.0",
   "description": "art portfolio",
-  "main": "index.html",
-  "directories": {
-    "lib": "lib"
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1"
   },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "index.js"
@@ -19,8 +20,5 @@
   "bugs": {
     "url": "https://github.com/ecuarezma/entrante/issues"
   },
-  "homepage": "https://github.com/ecuarezma/entrante#readme",
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+  "homepage": "https://github.com/ecuarezma/entrante#readme"
 }
